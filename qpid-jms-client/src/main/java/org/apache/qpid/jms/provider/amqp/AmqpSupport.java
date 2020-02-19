@@ -45,6 +45,7 @@ public class AmqpSupport {
     public static final Symbol ANONYMOUS_RELAY = Symbol.valueOf("ANONYMOUS-RELAY");
     public static final Symbol DELAYED_DELIVERY = Symbol.valueOf("DELAYED_DELIVERY");
     public static final Symbol SHARED_SUBS = Symbol.valueOf("SHARED-SUBS");
+    public static final Symbol SERVICEBUS_JMS = Symbol.valueOf("SERVICEBUS-JMS");
 
     // Symbols used to announce connection error information
     public static final Symbol CONNECTION_OPEN_FAILED = Symbol.valueOf("amqp:connection-establishment-failed");
